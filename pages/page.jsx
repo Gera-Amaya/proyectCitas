@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
-import Body from '../../components/Body';
-import Api from '../../components/Api';
-
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -13,7 +10,10 @@ const Home = () => {
             <meta name="description" content="Home page description" />
         </Head>
         <Header />
-        <Body />
+        <main>
+            <h1>Welcome to the Home Page</h1>
+        </main>
+        
         <Footer />
         </div>
     )
