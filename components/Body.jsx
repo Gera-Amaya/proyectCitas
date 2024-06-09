@@ -13,8 +13,8 @@ function Body() {
         <Image alt="" src={hero} className="absolute inset-0 h-full w-full object-cover" />
         <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
             <div className="p-4 sm:p-6">
-            <a className="block text-center">
-            </a>
+            <Link href="/citas" className="block text-center">
+            </Link>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
                 
@@ -35,7 +35,7 @@ function Body() {
         <div className="flex justify-center">
             <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <li className="rounded-lg overflow-hidden shadow-md">
-                <Link className="group block overflow-hidden">
+                <Link href="/citas" className="group block overflow-hidden" >
                 <Image src={TaperFade} alt="" className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"/>
                 
                 <div className="relative bg-gray-200 pt-3">
@@ -55,7 +55,7 @@ function Body() {
             </li>
 
             <li className="rounded-lg overflow-hidden shadow-md">
-                <Link className="group block overflow-hidden">
+                <Link href="/citas" className="group block overflow-hidden">
                 <Image src={Mullet} alt="" className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"/>
 
                 <div className="relative bg-gray-200 pt-3">
@@ -75,7 +75,7 @@ function Body() {
             </li>
 
             <li className="rounded-lg overflow-hidden shadow-md">
-                <Link className="group block overflow-hidden">
+                <Link href="/citas" className="group block overflow-hidden">
                 <Image src={fade} alt="" className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"/>
 
                 <div className="relative bg-gray-200 pt-3">
@@ -95,7 +95,7 @@ function Body() {
             </li>
 
             <li className="rounded-lg overflow-hidden shadow-md"> 
-                <Link className="group block overflow-hidden">
+                <Link href="/citas" className="group block overflow-hidden">
                 <Image src={Textured} alt="" className="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"/>
 
                 <div className="relative bg-gray-200 pt-3">
@@ -118,9 +118,7 @@ function Body() {
         </div>
     </section>
     <div className="text-center">
-    <Link
-        className="rounded-full border border-customA bg-gray-900 hover:bg-gray-200 hover:text-gray-900 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-customA focus:outline-none focus:ring active:text-opacity-75 transition-all"
-        href="/citas"
+    <Link className="rounded-full border border-customA bg-gray-900 hover:bg-gray-200 hover:text-gray-900 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-customA focus:outline-none focus:ring active:text-opacity-75 transition-all" href="/citas"
         >
         Hacer cita
     </Link>
